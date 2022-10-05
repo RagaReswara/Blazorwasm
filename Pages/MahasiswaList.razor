@@ -1,0 +1,51 @@
+@page "/listmhs"
+@inject HttpClient Http
+
+<PageTitle>List Mahasiswa</PageTitle>   
+
+<h1>List Mahasiswa</h1>
+
+<p>This component shows the list of collage students.</p>
+
+@if (mhs == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Alamat</th>
+                <th>Email</th>
+                <th>Foto</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mh in mhs)
+            {
+                <tr>
+                    <td>@mh.id</td>
+                    <td>@mh.nama</td>
+                    <td>@mh.nim</td>
+                    <td>@mh.alamat</td>
+                    <td>@mh.email</td>
+                    <td>@mh.foto</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Mahasiswa[]? mhs;
+
+    protected override async Task OnInitializedAsync()
+    {
+        mhs = await Http.GetFromJsonAsync<Mahasiswa[]>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/72170177");
+    }
+}
+
