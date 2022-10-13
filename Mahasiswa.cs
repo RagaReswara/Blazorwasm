@@ -6,4 +6,6 @@ public class Mahasiswa
     public string? alamat { get; set; }
     public string? email { get; set; }
     public string? foto { get; set; }
+    public string? nim_progmob { get; set;}
+    
 }

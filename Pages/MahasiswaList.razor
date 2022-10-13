@@ -13,6 +13,10 @@
 }
 else
 {
+    <div class="input-group col">
+        <input type="text" class="form-control" placeholder="Search Mahasiswa" @bind="SearchString" />
+        <button @onclick ="CariData">SEARCH</button>
+    </div>
     <table class="table">
         <thead>
             <tr>
@@ -37,15 +41,34 @@ else
                 </tr>
             }
         </tbody>
+        <div class="card-footer text-center">
+                <a href="addMhs" class="btn btn-primary m-1">ADD</a>
+        </div>
     </table>
 }
 
 @code {
-    private Mahasiswa[]? mhs;
+ 
 
     protected override async Task OnInitializedAsync()
     {
-        mhs = await Http.GetFromJsonAsync<Mahasiswa[]>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/72170177");
+        mhs = await Http.GetFromJsonAsync<List<Mahasiswa>>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/72200364");
+            searchUserData = mhs;
     }
-}
+
+    protected List<Mahasiswa> searchUserData = new();
+    protected List<Mahasiswa> mhs = new();
+    protected string SearchString { get; set;} = string.Empty;
+    protected void CariData(){
+        if (!string.IsNullOrEmpty(SearchString))
+        {
+            mhs = searchUserData.Where(x => x.nim.IndexOf(SearchString, StringComparison.OrdinalIgnoreCase) != -1).ToList();
+        }
+        else
+        {
+            mhs = searchUserData;
+        }
+    }
+} 
+
 
