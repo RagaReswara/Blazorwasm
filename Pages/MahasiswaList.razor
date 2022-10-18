@@ -38,12 +38,17 @@ else
                     <td>@mh.alamat</td>
                     <td>@mh.email</td>
                     <td>@mh.foto</td>
+                    <a href="updateMhs" class="btn btn-warning m-1">UPDATE</a>
+                    <a href="addMhs" class="btn btn-danger m-1">DELETE</a>
+                    @* <a><button asp-page-handler="Delete" asp-route-id="@MahasiswaList.id" onclick="return confirm('Are you sure you want to delete?')" class="btn btn-danger btn-sm">Delete</button></a>  *@
                 </tr>
             }
         </tbody>
-        <div class="card-footer text-center">
-                <a href="addMhs" class="btn btn-primary m-1">ADD</a>
+        <tbody>
+            <div class="card-footer text-center">
+                <a href="addMhs" class="btn btn-success m-1">ADD</a>
         </div>
+        </tbody>
     </table>
 }
 
