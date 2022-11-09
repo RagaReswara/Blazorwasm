@@ -14,8 +14,8 @@
 else
 {
     <div class="input-group col">
-        <input type="text" class="form-control" placeholder="Search Mahasiswa" @bind="SearchString" />
-        <button @onclick ="CariData">SEARCH</button>
+        <input type="text" class="form-control m-1" placeholder="Search Mahasiswa" @bind="SearchString" />
+        <button class="btn btn-primary m-1" @onclick ="CariData">SEARCH</button>
     </div>
     <table class="table">
         <thead>
@@ -26,6 +26,7 @@ else
                 <th>Alamat</th>
                 <th>Email</th>
                 <th>Foto</th>
+                <th>Aksi</th>
             </tr>
         </thead>
         <tbody> 
@@ -38,8 +39,7 @@ else
                     <td>@mh.alamat</td>
                     <td>@mh.email</td>
                     <td>@mh.foto</td>
-                    <a href="updateMhs" class="btn btn-warning m-1">UPDATE</a>
-                    <a href="addMhs" class="btn btn-danger m-1">DELETE</a>
+                    <button class="btn btn-warning m-1"><a href="/updatemhs?id=@mh.id&nama=@mh.nama&nim=@mh.nim&alamat=@mh.alamat&email=@mh.email&foto=@mh.foto">Update</a></button>
                     @* <a><button asp-page-handler="Delete" asp-route-id="@MahasiswaList.id" onclick="return confirm('Are you sure you want to delete?')" class="btn btn-danger btn-sm">Delete</button></a>  *@
                 </tr>
             }
@@ -54,7 +54,6 @@ else
 
 @code {
  
-
     protected override async Task OnInitializedAsync()
     {
         mhs = await Http.GetFromJsonAsync<List<Mahasiswa>>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/72200364");
