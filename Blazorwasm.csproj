@@ -9,10 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.2" PrivateAssets="all" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="lib\ComponentLibrary\ComponentLibrary.csproj" />
+    <PackageReference Include="MudBlazor" Version="6.1.2" />
   </ItemGroup>
 
 </Project>

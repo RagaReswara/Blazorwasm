@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "rUV5Dg1JfLq6Pj0ZommdevIkUG8PK1fMjuomF6teW2A=",
+  "Hash": "wEuKARHhc7MOVrJvFwQHTMPw8K6e+1PcDFek5CfWUBc=",
   "Source": "Blazorwasm",
   "BasePath": "/",
   "Mode": "Root",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\lib\\ComponentLibrary\\ComponentLibrary.csproj",
-      "Version": 2,
-      "Source": "ComponentLibrary",
-      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
       "Name": "Blazorwasm\\wwwroot",
@@ -25,16 +13,43 @@
       "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
-    },
-    {
-      "Name": "ComponentLibrary\\wwwroot",
-      "Source": "ComponentLibrary",
-      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\lib\\ComponentLibrary\\wwwroot\\",
-      "BasePath": "_content/ComponentLibrary",
-      "Pattern": "**"
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\MudBlazor.min.js"
+    },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "Blazorwasm",
@@ -102,40 +117,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net6.0\\Blazorwasm.pdb"
-    },
-    {
-      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ComponentLibrary.dll",
-      "SourceId": "Blazorwasm",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/ComponentLibrary.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\lib\\ComponentLibrary\\bin\\Debug\\net6.0\\ComponentLibrary.dll"
-    },
-    {
-      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ComponentLibrary.pdb",
-      "SourceId": "Blazorwasm",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/ComponentLibrary.pdb",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "symbol",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\lib\\ComponentLibrary\\bin\\Debug\\net6.0\\ComponentLibrary.pdb"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.2.cszmnxjkp5.js",
@@ -271,7 +252,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.2\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -288,7 +269,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.2\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -305,7 +286,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.2\\lib\\net6.0\\Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
@@ -322,7 +303,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.2\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -356,7 +337,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.2\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -492,7 +473,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.dll",
@@ -560,7 +541,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -628,7 +609,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.jsinterop\\6.0.2\\lib\\net6.0\\Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.jsinterop\\6.0.10\\lib\\net6.0\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
@@ -731,6 +712,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.2\\runtimes\\browser-wasm\\lib\\net6.0\\mscorlib.dll"
+    },
+    {
+      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "SourceId": "Blazorwasm",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\6.1.2\\lib\\net6.0\\MudBlazor.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\netstandard.dll",
@@ -1597,7 +1595,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\system.io.pipelines\\6.0.2\\lib\\net6.0\\System.IO.Pipelines.dll"
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\system.io.pipelines\\6.0.3\\lib\\net6.0\\System.IO.Pipelines.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipes.AccessControl.dll",
@@ -3470,57 +3468,6 @@
       "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.2\\runtimes\\browser-wasm\\lib\\net6.0\\WindowsBase.dll"
     },
     {
-      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\lib\\ComponentLibrary\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ComponentLibrary.bundle.scp.css",
-      "SourceId": "ComponentLibrary",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\lib\\ComponentLibrary\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/ComponentLibrary",
-      "RelativePath": "ComponentLibrary.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\lib\\ComponentLibrary\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ComponentLibrary.bundle.scp.css"
-    },
-    {
-      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\lib\\ComponentLibrary\\wwwroot\\background.png",
-      "SourceId": "ComponentLibrary",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\lib\\ComponentLibrary\\wwwroot\\",
-      "BasePath": "_content/ComponentLibrary",
-      "RelativePath": "background.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\background.png"
-    },
-    {
-      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\lib\\ComponentLibrary\\wwwroot\\exampleJsInterop.js",
-      "SourceId": "ComponentLibrary",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\lib\\ComponentLibrary\\wwwroot\\",
-      "BasePath": "_content/ComponentLibrary",
-      "RelativePath": "exampleJsInterop.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
-    },
-    {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\+8x94238.gz",
       "SourceId": "Blazorwasm",
       "SourceType": "Computed",
@@ -3553,23 +3500,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Collections.NonGeneric.dll"
-    },
-    {
-      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\+n3bSIVF.gz",
-      "SourceId": "Blazorwasm",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\+nYVhd7y.gz",
@@ -3791,23 +3721,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.dll"
-    },
-    {
-      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\35v7KWXU.gz",
-      "SourceId": "Blazorwasm",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\3v0UhIz+.gz",
@@ -4218,6 +4131,23 @@
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Data.Common.dll"
     },
     {
+      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\akQoFZjW.gz",
+      "SourceId": "Blazorwasm",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\aNfEJrIE.gz",
       "SourceId": "Blazorwasm",
       "SourceType": "Computed",
@@ -4233,6 +4163,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.RegularExpressions.dll"
+    },
+    {
+      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\aRUwh9Qk.gz",
+      "SourceId": "Blazorwasm",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\AYc1ZZ2H.gz",
@@ -4352,23 +4299,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.FileSystem.DriveInfo.dll"
-    },
-    {
-      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\bQX502pC.gz",
-      "SourceId": "Blazorwasm",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\BubTlMI+.gz",
@@ -4573,23 +4503,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Xml.XPath.dll"
-    },
-    {
-      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\edevpuKj.gz",
-      "SourceId": "Blazorwasm",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\eFDgzOSx.gz",
@@ -5085,23 +4998,6 @@
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Data.dll"
     },
     {
-      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\JA2WxnN7.gz",
-      "SourceId": "Blazorwasm",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
-    },
-    {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\jE0aXY6O.gz",
       "SourceId": "Blazorwasm",
       "SourceType": "Computed",
@@ -5151,6 +5047,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat"
+    },
+    {
+      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\Jue4nYQS.gz",
+      "SourceId": "Blazorwasm",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\jVhcxd8F.gz",
@@ -5270,23 +5183,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Intrinsics.dll"
-    },
-    {
-      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\LR3TZCjI.gz",
-      "SourceId": "Blazorwasm",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\LU+EiqLW.gz",
@@ -5697,6 +5593,23 @@
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.Contracts.dll"
     },
     {
+      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\PvBaHkBG.gz",
+      "SourceId": "Blazorwasm",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
+    },
+    {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\pxDsTGZ+.gz",
       "SourceId": "Blazorwasm",
       "SourceType": "Computed",
@@ -5833,21 +5746,21 @@
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Transactions.Local.dll"
     },
     {
-      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\qlxDDM4w.gz",
+      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\qV7zFBEg.gz",
       "SourceId": "Blazorwasm",
       "SourceType": "Computed",
       "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/ComponentLibrary.dll.gz",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ComponentLibrary.dll",
+      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ComponentLibrary.dll"
+      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\qzZAn4MB.gz",
@@ -5882,6 +5795,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.dll"
+    },
+    {
+      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\ra0ZZlG5.gz",
+      "SourceId": "Blazorwasm",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\rjGVuHuL.gz",
@@ -6292,6 +6222,23 @@
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Channels.dll"
     },
     {
+      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\uOkehWAl.gz",
+      "SourceId": "Blazorwasm",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
+    },
+    {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\UpEQ+6VE.gz",
       "SourceId": "Blazorwasm",
       "SourceType": "Computed",
@@ -6324,23 +6271,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.Primitives.dll"
-    },
-    {
-      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\VHlCUyBc.gz",
-      "SourceId": "Blazorwasm",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.IO.Pipelines.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\VHrUbLpy.gz",
@@ -6377,6 +6307,57 @@
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Xml.Linq.dll"
     },
     {
+      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\vMAIByo+.gz",
+      "SourceId": "Blazorwasm",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.IO.Pipelines.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll"
+    },
+    {
+      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\VP5u5C+A.gz",
+      "SourceId": "Blazorwasm",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll"
+    },
+    {
+      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\vsUtHg+Z.gz",
+      "SourceId": "Blazorwasm",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
+    },
+    {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\vu85lb5d.gz",
       "SourceId": "Blazorwasm",
       "SourceType": "Computed",
@@ -6392,23 +6373,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Overlapped.dll"
-    },
-    {
-      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\VXNmaFrT.gz",
-      "SourceId": "Blazorwasm",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/ComponentLibrary.pdb.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ComponentLibrary.pdb",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ComponentLibrary.pdb"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\vYv7sh8z.gz",
@@ -6460,23 +6424,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.dll"
-    },
-    {
-      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\WpxGQHWX.gz",
-      "SourceId": "Blazorwasm",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\WrCZlWZt.gz",
@@ -6834,23 +6781,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.WebSockets.dll"
-    },
-    {
-      "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\z6+w6Tg3.gz",
-      "SourceId": "Blazorwasm",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "D:\\kuliah\\Semester 5\\Pemrog. Front End\\Blazorwasm\\obj\\Debug\\net6.0\\build-gz\\zA5eMtir.gz",
