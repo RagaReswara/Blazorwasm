@@ -813,3 +813,17 @@ D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\obj\Debug\net6.0\Blazorwasm.dl
 D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\obj\Debug\net6.0\refint\Blazorwasm.dll
 D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\obj\Debug\net6.0\Blazorwasm.pdb
 D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\obj\Debug\net6.0\ref\Blazorwasm.dll
+D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\bin\Debug\net6.0\wwwroot\_framework\ComponentLibrary.dll
+D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\bin\Debug\net6.0\wwwroot\_framework\ComponentLibrary.pdb
+D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\bin\Debug\net6.0\wwwroot\_framework\ComponentLibrary.dll.gz
+D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\bin\Debug\net6.0\wwwroot\_framework\ComponentLibrary.pdb.gz
+D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\bin\Debug\net6.0\ComponentLibrary.staticwebassets.runtime.json
+D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\bin\Debug\net6.0\lib\ComponentLibrary\bin\Debug\net6.0\ComponentLibrary.deps.json
+D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\bin\Debug\net6.0\lib\ComponentLibrary\bin\Debug\net6.0\ComponentLibrary.staticwebassets.runtime.json
+D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\bin\Debug\net6.0\lib\ComponentLibrary\obj\ComponentLibrary.csproj.nuget.dgspec.json
+D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\bin\Debug\net6.0\lib\ComponentLibrary\obj\project.assets.json
+D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\bin\Debug\net6.0\ComponentLibrary.dll
+D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\bin\Debug\net6.0\ComponentLibrary.pdb
+D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\obj\Debug\net6.0\build-gz\qlxDDM4w.gz
+D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\obj\Debug\net6.0\build-gz\VXNmaFrT.gz
+D:\kuliah\Semester 5\Pemrog. Front End\Blazorwasm\obj\Debug\net6.0\scopedcss\lib\ComponentLibrary\Component1.razor.rz.scp.css
