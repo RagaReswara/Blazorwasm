@@ -22,7 +22,21 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
-    <script src="_content/MudBlazor/MudBlazor.min.js"></script> 
+    <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+    <script src="_framework/blazor.webassembly.js" autostart="false"></script>
+    
+    <script>
+        Blazor.start({
+          applicationCulture: 'en-US'
+        });
+      </script>
+    
+    <script>
+        window.blazorCulture = {
+          get: () => window.localStorage['BlazorCulture'],
+          set: (value) => window.localStorage['BlazorCulture'] = value
+        };
+      </script>
 </body>
 
 </html>
